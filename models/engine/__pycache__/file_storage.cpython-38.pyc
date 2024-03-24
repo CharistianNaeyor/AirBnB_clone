@@ -1,0 +1,18 @@
+U^M^M
+^@^@^@^@^^@îe7^F^@^@ã^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^@^@@^@^@^@sr^@^@^@d^@Z^@d^Ad^Bl^AZ^Ad^Ad^Cl^Bm^CZ^C^A^@d^Ad^Dl^Dm^EZ^E^A^@d^Ad^El^Fm^GZ^G^A^@d^Ad^Fl^Hm       Z       ^A^@d^Ad^Gl
+m^KZ^K^A^@d^Ad^Hl^Lm^MZ^M^A^@d^Ad       l^Nm^OZ^O^A^@G^@d
+d^K<84>^@d^K<83>^BZ^Pd^BS^@)^Lz^^Defines the FileStorage class.é^@^@^@^@N)^AÚ   BaseModel)^AÚ^DUser)^AÚ^EState)^AÚ^DCity)^AÚ^EPlace)^AÚ^GAmenity)^AÚ^FReviewc^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^B^@^@^@@^@^@^@s8^@^@^@e^@Z^Ad^@Z^Bd^AZ^Cd^BZ^Di^@Z^Ed^Cd^D<84>^@Z^Fd^Ed^F<84>^@Z^Gd^Gd^H<84>^@Z^Hd        d
+<84>^@Z d^KS^@)^LÚ^KFileStoragezÁRepresent an abstracted storage engine.
+
+    Attributes:
+        __file_path (str): The name of the file to save objects to.
+        __objects (dict): A dictionary of instantiated objects.
+    z   file.jsonc^A^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^A^@^@^@C^@^@^@s^F^@^@^@t^@j^AS^@)^Az Return the dictionary __objects.)^Br    ^@^@^@Ú^U_FileStorage__objects)^AÚ^Dself©^@r^L^@^@^@ú0/root/AirBnB_clone/models/engine/file_storage.pyÚ^Call^W^@^@^@s^B^@^@^@^@^Bz^OFileStorage.allc^B^@^@^@^@^@^@^@^@^@^@^@^C^@^@^@^F^@^@^@C^@^@^@s ^@^@^@|^Aj^@j^A}^B|^At^Bj^Cd^A ^D|^B|^Aj^E¡^B<^@d^BS^@)^Cz1Set in __objects obj with key <obj_class_name>.idz^E{}.{}N)^FÚ  __class__Ú^H__name__r   ^@^@^@r
+^@^@^@Ú^FformatÚ^Bid)^Cr^K^@^@^@Ú^CobjZ^Focnamer^L^@^@^@r^L^@^@^@r^M^@^@^@Ú^Cnew^[^@^@^@s^D^@^@^@^@^B^H^Az^OFileStorage.newc^A^@^@^@^@^@^@^@^@^@^@^@^C^@^@^@    ^@^@^@^C^@^@^@sD^@^@^@t^@j^A<89>^@<87>^@f^Ad^Ad^B<84>^H<88>^@ ^B¡^@D^@<83>^A}^At^Ct^@j^Dd^C<83>^B<8f>^R}^Bt^E ^F|^A|^B¡^B^A^@W^@5^@Q^@R^@X^@d^DS^@)^Ez1Serialize __objects to the JSON file __file_path.c^A^@^@^@^@^@^@^@^@^@^@^@^B^@^@^@^E^@^@^@^S^@^@^@s^Z^@^@^@i^@|^@]^R}^A|^A<88>^@|^A^Y^@ ^@¡^@<93>^Bq^DS^@r^L^@^@^@)^AZ^Gto_dict)^BÚ^B.0r^S^@^@^@©^AZ^Eodictr^L^@^@^@r^M^@^@^@Ú
+<dictcomp>#^@^@^@s^F^@^@^@^F^@^B^@^B^@z$FileStorage.save.<locals>.<dictcomp>Ú^AwN)^Gr   ^@^@^@r
+^@^@^@Ú^DkeysÚ^DopenÚ^W_FileStorage__file_pathÚ^DjsonÚ^Ddump)^Cr^K^@^@^@Ú^GobjdictÚ^Afr^L^@^@^@r^V^@^@^@r^M^@^@^@Ú^Dsave ^@^@^@s^H^@^@^@^@^B^F^A^V^A^N^Az^PFileStorage.savec^A^@^@^@^@^@^@^@^@^@^@^@^E^@^@^@    ^@^@^@C^@^@^@sp^@^@^@zTt^@t^Aj^B<83>^A<8f>@}^At^C ^D|^A¡^A}^B|^B ^E¡^@D^@]&}^C|^Cd^A^Y^@}^D|^Cd^A=^@|^@ ^Ft^G|^D<83>^Af^@|^C<8e>^A¡^A^A^@q W^@5^@Q^@R^@X^@W^@n^V^D^@t^Hk
+rj^A^@^A^@^A^@Y^@d^BS^@X^@d^BS^@)^CzADeserialize the JSON file __file_path to __objects, if it exists.r^O^@^@^@N)       r^Z^@^@^@r      ^@^@^@r^[^@^@^@r^\^@^@^@Ú^DloadÚ^Fvaluesr^T^@^@^@Ú^DevalÚ^QFileNotFoundError)^Er^K^@^@^@r^_^@^@^@r^^^@^@^@Ú^AoZ^Hcls_namer^L^@^@^@r^L^@^@^@r^M^@^@^@Ú^Freload'^@^@^@s^R^@^@^@^@^B^B^A^L^A
+^A^L^A^H^A^F^A$^A^N^Az^RFileStorage.reloadN)
+r^P^@^@^@Ú
+__module__Ú^L__qualname__Ú^G__doc__r^[^@^@^@r
+^@^@^@r^N^@^@^@r^T^@^@^@r ^@^@^@r&^@^@^@r^L^@^@^@r^L^@^@^@r^L^@^@^@r^M^@^@^@r   ^@^@^@^M^@^@^@s^N^@^@^@^H^A^D^F^D^A^D^B^H^D^H^E^H^Gr    ^@^@^@)^Qr)^@^@^@r^\^@^@^@Ú^Qmodels.base_modelr^B^@^@^@Ú^Kmodels.userr^C^@^@^@Ú^Lmodels.stater^D^@^@^@Ú^Kmodels.cityr^E^@^@^@Ú^Lmodels.placer^F^@^@^@Ú^Nmodels.amenityr^G^@^@^@Ú^Mmodels.reviewr^H^@^@^@r       ^@^@^@r^L^@^@^@r^L^@^@^@r^L^@^@^@r^M^@^@^@Ú^H<module>^B^@^@^@s^R^@^@^@^D^A^H^A^L^A^L^A^L^A^L^A^L^A^L^A^L^C

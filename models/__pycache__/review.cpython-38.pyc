@@ -1,0 +1,9 @@
+U^M^M
+^@^@^@^@<94>àðeR^A^@^@ã^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^D^@^@^@@^@^@^@s$^@^@^@d^@Z^@d^Ad^Bl^Am^BZ^B^A^@G^@d^Cd^D<84>^@d^De^B<83>^CZ^Cd^ES^@)^Fz^YDefines the Review class.é^@^@^@^@)^AÚ BaseModelc^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@@^@^@^@s^\^@^@^@e^@Z^Ad^@Z^Bd^AZ^Cd^BZ^Dd^BZ^Ed^BZ^Fd^CS^@)^DÚ^FReviewz<9f>Represent a review.
+
+    Attributes:
+        place_id (str): The Place id.
+        user_id (str): The User id.
+        text (str): The text of the review.
+    Ú^@N)^GÚ^H__name__Ú
+__module__Ú^L__qualname__Ú^G__doc__Z^Hplace_idÚ^Guser_idÚ^Dtext©^@r^K^@^@^@r^K^@^@^@ú#/root/AirBnB_clone/models/review.pyr^C^@^@^@^F^@^@^@s^H^@^@^@^H^A^D^H^D^A^D^Ar^C^@^@^@N)^Dr^H^@^@^@Ú^Qmodels.base_modelr^B^@^@^@r^C^@^@^@r^K^@^@^@r^K^@^@^@r^K^@^@^@r^L^@^@^@Ú^H<module>^B^@^@^@s^D^@^@^@^D^A^L^C
